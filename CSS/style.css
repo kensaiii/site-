@@ -1,0 +1,1038 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;    
+    background-color: #202123;
+    color: #FFFFFF;
+    
+    
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;    
+}
+.contener{
+    background-color: #202123;
+}
+/*header*/
+.header{
+    height: 1050px;
+}
+.header-text{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.name-project{
+    font-size: 24px;
+}
+.nav{
+    margin-left: 25px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 25px;
+    margin-right: 25px;
+}
+.line{
+    margin-top: 45px;
+    margin-left: 200px;
+}
+.line2{
+    margin-top: 25px; 
+    margin-left: 200px;
+}
+
+.icon-web{
+    margin-left: 184px;
+}
+.info-Alex{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.hi-Alex{
+    padding-top: 325px;
+    margin-left: 255px;
+}
+.hi-span{
+    font-size: 32px;
+}
+.name-span{
+    color:#FFA688; 
+    font-size: 88px; 
+    font-weight: 600;
+}
+.web-span{
+    color: #696969; 
+    font-size: 29px;
+}
+.man-img{
+    padding-top: 150px;
+    margin-left: 150px;
+}
+.btn{
+    display: flex;
+}
+.btn-left{
+    margin-right: 25px;
+    margin-top: 30px;
+    background-color: #FFA688;
+    width: 212px;
+    height: 56px;
+    border-radius: 10px;
+    border: solid 0px;
+    text-decoration: none;
+    color: #000000;    
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: color .8s linear;
+}
+.btn-left:hover{
+    background-color: #202123;
+    color: #FFA688;
+    border: solid 2px;
+}
+.btn-right{
+    margin-top: 30px;
+    background-color: #202123;
+    width: 212px;
+    height: 56px;
+    border-radius: 10px;
+    border: solid 2px;
+    text-decoration: none;
+    color: #FFA688;   
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: color .8s linear;
+}
+.btn-right:hover{
+    background-color: #FFA688;
+    color: #202123;
+    border: solid 0px;
+}
+/*header*/
+
+/*main*/
+.about{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    height: 950px;
+}
+.photo-img{
+    width: 618px;
+    height: 765px;
+}
+.text-about{
+    padding-top: 25px;
+    margin-right: 250px;
+}
+.span-text-about{
+    color: #FFA688; 
+    font-size: 56px; 
+    font-family:'Montserrat', sans-serif;
+}
+.icon-about{
+    display: flex;
+    padding-top: 15px;
+    
+}
+.icon-vk,
+.icon-tg{
+    margin-right: 40px;
+}
+/*skills*/
+.skills{
+    font-family:'Montserrat', sans-serif;
+    height: 750px;    
+}
+.text-skill{
+    text-align: center;
+}
+.skill-text{
+    font-size: 56px;
+    color: #FFA688;
+}
+.skill-icon{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+/*skills*/
+/*portfolio*/
+.portfolio{
+    height: 1200px;
+    text-align: center;
+}
+.text-portfolio{
+    color: #FFA688;   
+    font-size: 56px;
+    
+}
+.scrol-portfolio{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    font-size: 30px;
+}
+.img-portfolio,
+.img-portfolio-second{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*portfolio*/
+
+
+
+/*contact with me*/
+.contact-with-me{
+    padding-top: 25px;
+    height: 900px;
+    font-family:'Montserrat',sans-serif; 
+}
+.content-contact{
+    display: flex;
+    margin-left: 150px;
+}
+.text-with-me{
+    font-size: 56px;
+    color: #FFA688;
+    text-align: center;
+}
+.form,
+.form-textarea{
+    width: 714px;
+    height: 99px;
+    border-radius: 10px;
+    border: solid 1px;
+    background-color: #202123;
+    color:#FFA688;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 32px;
+    padding-left: 50px;
+    -moz-user-input: #FFA688;
+    resize: none;
+}
+.form-textarea{
+    padding-top: 20px;
+}
+.btn-form{
+    margin-left: 50px;
+}
+.form-btn{
+    margin-right: 25px;
+    margin-top: 30px;
+    background-color: #FFA688;
+    width: 714px;
+    height: 80px;
+    border-radius: 10px;
+    border: solid 0px;
+    text-decoration: none;
+    color: #000000;    
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: color .9s linear;
+}
+.form-btn:hover{
+    background-color: #202123;
+    color: #FFA688;
+    border: solid 2.5px;
+
+}
+.hr{
+    margin-left: 70px;
+    width: 100px;
+}
+.contact-me{
+    font-family:'Montserrat',sans-serif; 
+    margin-left: 100px;
+}
+.tel-text,
+.text-email,
+.text-address{
+    color: #FFA688;
+    font-size: 32px;
+}
+.tel,
+.email-form,
+.address-text{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+/*contact with me*/
+/*main*/
+/*footer*/
+.footer-text{
+    padding-top: 25px;
+}
+.footer{
+    font-family:'Montserrat',sans-serif; 
+    height: 150px;
+    background: #2A2B2F;
+    color: #747474;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.footer-icon a{
+    text-decoration: none;
+}
+/*footer*/
+
+@media screen and (max-width: 1600px) {
+	.contener {
+		width: 1600px;       
+	}
+    .man-img{
+        width: 500px;
+
+    }
+    .html5{
+        width: auto;
+        height: 300px;
+    }
+    .css{
+        width: auto;
+        height: 300px;
+    }
+    .js{
+        width: auto;
+        height: 300px;
+    }
+
+}
+@media screen and (max-width: 780px) {
+	.contener {
+		width: 768px;       
+	}
+    /*header*/
+    .header{
+        height: 550px;
+    }
+    .name-project{
+        font-size: 16px;
+    }
+    .nav{
+        font-size: 17px;
+    }
+    .nav-link{
+        margin-right: 0;
+    }
+    .line{
+        margin-left: 25px;
+    }
+    .icon-web{
+        margin-left: 12px;
+    }
+    .hi-Alex{
+        margin-left: 50px; 
+        padding-top: 250px;       
+    }
+    .hi-span{
+        font-size: 26px;
+    }
+    .name-span{
+        font-size: 26px;
+    }
+    .web-span{
+        font-size: 21px;
+    }
+    .line-img{
+        height: 150px;
+    }
+    .line2{
+        margin-left: 25px;
+    }
+    .line-img2{
+        height: 150px;
+
+    }
+    .btn-left,
+    .btn-right{
+        width: 120px;
+        height: 46px;
+        font-size: 18px;
+    }
+    .man-img{
+        width: 250px;
+        padding-top: 200px;
+        padding-right: 5px;
+    }
+    /*header*/
+    
+    /*about*/
+    .span-text-about{
+        font-size: 36px;
+    }
+    .photo{
+        padding-left: 5px;
+    }
+    .photo-img{
+        margin-top: 50px;
+        height: 550px;
+        width: auto;
+    }
+    .text-about{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    /*porfolio*/
+    .portfolio{
+        height: 900px;
+    }
+    .img-portfolio,
+    .img-portfolio-second{
+        display: flex;
+        justify-content: space-evenly;
+        height: 150px;
+    }
+    .scrol-portfolio {
+        padding-left: 10px;
+    }
+    .line-web{
+        width: 50px;
+    }
+
+    .skills{
+        height: 500px;
+    }
+    .html5{
+        width: auto;
+        height: 250px;
+    }
+    .css{
+        width: auto;
+        height: 250px;
+    }
+    .js{
+        width: auto;
+        height: 250px;
+    }
+    /*porfolio*/
+    /*contact with me*/
+    .blank-with-me{
+        width: 768px;
+    }
+    .content-contact{
+        justify-content: end;
+    }
+    .contact-me{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .form,
+    .form-btn,
+    .form-textarea{
+        width: 350px;
+        height: 70px;
+        
+    }
+    .hr{
+        margin-left: 20px;
+    }
+    .footer-icon a{
+        text-decoration: none;
+    }
+
+
+    /*contact with me*/
+    /*about*/
+}
+@media screen and (max-width: 450px) {
+	.contener {
+		width: 425px;       
+	}
+    /*header*/
+    .header{
+        height: 600px;
+    }
+    .name-project{
+        font-size: 18px;
+    }
+    .nav{
+        font-size: 19px;
+    }
+    .nav-link{
+        margin-right: 0;
+        display: block;
+        padding: 5px 15px 15px 15px;
+        text-align: left;
+    }
+    .line{
+        margin-left: 25px;
+    }
+    .icon-web{
+        margin-left: 12px;
+        margin-top: 15px;
+    }
+    .hi-Alex{
+        margin-left: 75px; 
+        padding-top: 100px;       
+    }
+    .hi-span{
+        font-size: 26px;
+    }
+    .name-span{
+        font-size: 26px;
+    }
+    .web-span{
+        font-size: 21px;
+    }
+    .line-img{
+        height: 90px;
+        margin-top: 12px;
+    }
+    .line2{
+        margin-left: 25px;
+    }
+    .line-img2{
+        height: 100x;
+        display: none;
+
+    }
+    .btn-left,
+    .btn-right{
+        width: 120px;
+        height: 46px;
+        font-size: 18px;
+    }
+    .man-img{
+        display: none;
+    }
+    /*header*/
+    
+    /*about*/
+    .about{
+        display: flex;
+        justify-content: center;
+        height: 670px;
+    }
+    .span-text-about{
+        font-size: 26px;
+    }
+    .photo{
+        padding-left: 15px;
+    }
+    .photo-img{
+        margin-top: 50px;
+        height: 225px;
+        width: auto;
+    }
+    .icon-vk,
+    .icon-tg{
+        margin-right: 15px;
+    }
+    .text-about{
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    /*porfolio*/
+    .portfolio{
+        height: 600px;
+    }
+    .line-web{
+        width: 50px;
+    }
+    .text-portfolio{
+        font-size: 24px;
+    }
+    .img-portfolio,
+    .img-portfolio-second{
+        display: flex;
+        justify-content: space-evenly;
+        height: 85px;
+    }
+    .scrol-portfolio {
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+
+    .skills{
+        height: 400px;
+    }
+    .skill-icon{
+        padding-top: 55px;
+    }
+    .html5{
+        width: auto;
+        height: 150px;
+    }
+    .css{
+        width: auto;
+        height: 150px;
+    }
+    .js{
+        width: auto;
+        height: 150px;
+    }
+    /*porfolio*/
+    /*contact with me*/
+    .blank-with-me{
+        width: 425px;
+    }
+    .contact-with-me{
+        height: 750px;
+    }
+    .content-contact{
+        justify-content: flex-end;
+    }
+    
+    .text-with-me{
+        font-size: 24px;
+    }
+    .form,
+    .form-btn,
+    .form-textarea{
+        width: 150px;
+        height: 70px;
+        font-size: 24px;
+        padding: 5px;
+    }
+    .hr{
+        margin-left: 5px;
+    }
+    .tel-text,
+    .text-email,
+    .text-address{
+        font-size: 22px;
+    }
+    .tel,
+    .email-form,
+    .address-text{
+        font-size: 17px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer-text{
+        font-size: 14px;
+    }
+    .footer-icon {        
+        display: flex;
+    }
+    .footer-icon-vk,
+    .footer-icon-tg,
+    .footer-icon-inst{
+        margin-top: 15px;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .footer-icon a{
+        text-decoration: none;
+    }
+    /*contact with me*/
+    /*about*/
+}
+
+@media screen and (max-width: 380px) {
+	.contener {
+		width: 375px;       
+	}
+    /*header*/
+    .header{
+        height: 600px;
+    }
+    .name-project{
+        font-size: 15px;
+    }
+    .nav{
+        font-size: 16px;
+    }
+    .nav-link{
+        margin-right: 0;
+        display: block;
+        padding: 5px 15px 15px 15px;
+        text-align: left;
+    }
+    .line{
+        margin-left: 25px;
+    }
+    .icon-web{
+        margin-left: 12px;
+        margin-top: 15px;
+    }
+    .hi-Alex{
+        margin-left: 75px; 
+        padding-top: 100px;       
+    }
+    .hi-span{
+        font-size: 26px;
+    }
+    .name-span{
+        font-size: 26px;
+    }
+    .web-span{
+        font-size: 21px;
+    }
+    .line-img{
+        height: 90px;
+        margin-top: 12px;
+    }
+    .line2{
+        margin-left: 25px;
+    }
+    .line-img2{
+        height: 100x;
+        display: none;
+
+    }
+    .btn-left,
+    .btn-right{
+        width: 100px;
+        height: 44px;
+        font-size: 15px;
+    }
+    .man-img{
+        display: none;
+    }
+    /*header*/
+    
+    /*about*/
+    .about{
+        display: flex;
+        justify-content: center;
+        height: 880px;
+    }
+    .span-text-about{
+        font-size: 26px;
+    }
+    .photo{
+        padding-left: 15px;
+    }
+    .photo-img{
+        margin-top: 165px;
+        height: 225px;
+        width: auto;
+    }
+    .icon-vk,
+    .icon-tg{
+        margin-right: 15px;
+    }
+    .text-about{
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    /*porfolio*/
+    .portfolio{
+        height: 600px;
+    }
+    .line-web{
+        width: 50px;
+    }
+    .text-portfolio{
+        font-size: 24px;
+    }
+    .img-portfolio,
+    .img-portfolio-second{
+        display: flex;
+        justify-content: space-evenly;
+        height: 80px;
+    }
+    .scrol-portfolio {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+    .skills{
+        height: 400px;
+    }
+    .skill-icon{
+        padding-top: 55px;
+    }
+    .html5{
+        width: auto;
+        height: 150px;
+    }
+    .css{
+        width: auto;
+        height: 150px;
+    }
+    .js{
+        width: auto;
+        height: 150px;
+    }
+    /*porfolio*/
+    /*contact with me*/
+    .blank-with-me{
+        width: 375px;
+    }
+    .contact-with-me{
+        height: 750px;
+        margin-right: 150px;
+    }
+    .content-contact{
+        justify-content: space-evenly;
+    }
+    
+    .text-with-me{
+        font-size: 24px;
+        margin-right: -135px;
+    }
+    .form,
+    .form-btn,
+    .form-textarea{
+        width: 140px;
+        height: 70px;
+        font-size: 24px;
+        padding: 5px;
+    }
+    .hr{
+        margin-left: 5px;
+    }
+    .tel-text,
+    .text-email,
+    .text-address{
+        font-size: 22px;
+    }
+    .tel,
+    .email-form,
+    .address-text{
+        font-size: 17px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer-text{
+        font-size: 14px;
+    }
+    .footer-icon {        
+        display: flex;
+    }
+    .footer-icon-vk,
+    .footer-icon-tg,
+    .footer-icon-inst{
+        margin-top: 15px;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .footer-icon a{
+        text-decoration: none;
+    }
+    /*contact with me*/
+    /*about*/
+}
+@media screen and (max-width: 325px) {
+	.contener {
+		width: 320px;       
+	}
+    /*header*/
+    .header{
+        height: 600px;
+    }
+    .name-project{
+        font-size: 15px;
+    }
+    .nav{
+        font-size: 16px;
+        margin-right: 25px;
+    }
+    .nav-link{
+        margin-right: 0;
+        display: block;
+        padding: 5px 15px 15px 15px;
+        text-align: left;
+    }
+    .line{
+        margin-left: 25px;
+    }
+    .icon-web{
+        margin-left: 12px;
+        margin-top: 15px;
+    }
+    .hi-Alex{
+        margin-left: 75px; 
+        padding-top: 100px;       
+    }
+    .hi-span{
+        font-size: 24px;
+    }
+    .name-span{
+        font-size: 24px;
+    }
+    .web-span{
+        font-size: 18px;
+    }
+    .line-img{
+        height: 90px;
+        margin-top: 12px;
+    }
+    .line2{
+        margin-left: 25px;
+    }
+    .line-img2{
+        height: 100x;
+        display: none;
+
+    }
+    .btn-left,
+    .btn-right{
+        width: 85px;
+        height: 44px;
+        font-size: 12px;
+    }
+    .man-img{
+        display: none;
+    }
+    /*header*/
+    
+    /*about*/
+    .about{
+        display: flex;
+        justify-content: center;
+        height: 680px;
+    }
+    .span-text-about{
+        font-size: 26px;
+    }
+    .photo{
+        padding-left: 15px;
+    }
+    .photo-img{
+        margin-top: 60px;
+        height: 225px;
+        width: auto;
+    }
+    .icon-vk,
+    .icon-tg{
+        margin-right: 5px;
+    }
+    .text-about{
+        margin-right: 40px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    /*porfolio*/
+    .portfolio{
+        height: 550px;
+    }
+    .line-web{
+        width: 50px;
+    }
+    .text-portfolio{
+        font-size: 24px;
+    }
+    .img-portfolio,
+    .img-portfolio-second{
+        display: flex;
+        justify-content: space-evenly;
+        height: 65px;
+    }
+    .scrol-portfolio {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+
+    .skills{
+        height: 400px;
+    }
+    .skill-icon{
+        padding-top: 55px;
+    }
+    .html5{
+        width: auto;
+        height: 150px;
+    }
+    .css{
+        width: auto;
+        height: 150px;
+    }
+    .js{
+        width: auto;
+        height: 150px;
+    }
+
+    /*porfolio*/
+    /*contact with me*/
+    .blank-with-me{
+        width: 325px;
+        margin-right: 0px;
+    }
+    .contact-with-me{
+        height: 725px;
+        margin-right: 150px;
+    }
+    .contact-me{
+        margin-left: 10px;
+    }
+    .content-contact{
+        justify-content: space-evenly;
+    }
+    
+    .text-with-me{
+        font-size: 24px;
+        /*margin-right: -135px;*/
+    }
+    .form,
+    .form-btn,
+    .form-textarea{
+        width: 140px;
+        height: 70px;
+        font-size: 24px;
+        padding: 5px;
+    }
+    .hr{
+        margin-left: 5px;
+    }
+    .tel-text,
+    .text-email,
+    .text-address{
+        font-size: 22px;
+    }
+    .tel,
+    .email-form,
+    .address-text{
+        font-size: 15px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer-text{
+        font-size: 14px;
+    }
+    .footer-icon {        
+        display: flex;
+    }
+    .footer-icon-vk,
+    .footer-icon-tg,
+    .footer-icon-inst{
+        margin-top: 15px;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .footer-icon a{
+        text-decoration: none;
+    }
+    /*contact with me*/
+    /*about*/
+}
